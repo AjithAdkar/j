@@ -15,6 +15,6 @@ public class JApplication {
 
 	@GetMapping()
 	public String test() {
-		return "working";
+		return "working test";
 	}
 }
