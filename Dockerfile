@@ -1,4 +1,4 @@
 FROM    openjdk:17-alpine
-WORKDIR /discovery_server
+WORKDIR /j
 COPY target/j.jar .
 CMD ["java","-jar","j.jar"]
